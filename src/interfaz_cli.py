@@ -62,7 +62,7 @@ def menu():
                 
             elif opcion in ('5', 'listar'):
                 usuarios = listar_usuarios(conexion)
-                imprimir({'total'; len(usuarios), 'usuarios': usuarios})
+                imprimir({'total': len(usuarios), 'usuarios': usuarios})
             
             elif opcion in ('6', 'salir'):
                 print('Adios')
